@@ -66,7 +66,7 @@ angular.module('myApp', ['ngRoute'])
   return service;
 })
 .config(function(WeatherProvider) {
-  WeatherProvider.setApiKey('72e97c541109237d');
+  WeatherProvider.setApiKey('REPLACE_WITH_YOUR_KEY');
 })
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider
